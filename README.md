@@ -98,18 +98,5 @@ P_i(k) ∝ k_i / Σ(k_j) for j=1 to n
 #### 5(c): Protein Network Robustness [5 points]
 - Apply random and targeted deletion to YPI
 - Compute robustness metrics (S and <s>)
-- Reference: Jeong et al., Nature 411, 41-42 (2001)
 
-## Implementation Guidelines
-
-### Required Libraries
-```python
-import networkx as nx
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-from scipy import stats
-import random
-```
 
